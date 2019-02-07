@@ -1,0 +1,121 @@
+body{
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.header{
+  background-color: rgba(204, 40, 16, 0.92);
+  padding-top: 1%;
+  padding-bottom: 2%;
+  box-shadow: 2px 3px 5px grey;
+}
+
+header a{
+  font-size: 1.3vw;
+  color: #FFFFFF;
+  text-shadow: 0 0 1px #FFF, 0 0 1px #FFF, 0 0 1px #FFF, 0 0 1px #18baff, 0 0 1px #18baff, 0 0 1px #18baff, 0 0 1px #18baff;
+}
+
+header a:hover{
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+header, footer a:visited{
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+button a:hover{
+  color:#FFFFFF;
+  text-decoration: none;
+}
+button a{
+  color:#FFFFFF;
+  text-decoration: none;
+}
+
+.background {
+  background-image: url("font/beef.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+  background-color: rgb(193, 64, 64);
+  height: 200%;
+  width: 100%;
+}
+
+.titleImage{
+  color: #000000;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px;
+}
+
+.title2{
+  font-size: 3vw;
+  margin-left: 20%;
+}
+
+.white{
+  color:white
+}
+
+.sizeText{
+  font-size: 2vw;
+}
+
+.sizeText2{
+  font-size: 1.5vw;
+}
+
+.center{
+  text-align:center;
+}
+
+.sizeTitle{
+  font-size:3vw;
+}
+
+.sizeTitle2{
+  font-size:2.5vw;
+}
+
+.imgValue{
+  height: auto;
+  width: 50%;
+  margin-left: 22%;
+}
+.imgValue2{
+  height: auto;
+  width: 72%;
+  margin-left: 22%;
+}
+.imgValue3{
+  height: auto;
+  width: 51%;
+  margin-left: 22%;
+}
+
+footer{
+  color: #FFFFFF;
+  text-shadow: 0 0 1px #FFF, 0 0 1px #FFF, 0 0 1px #FFF, 0 0 1px #18baff, 0 0 1px #18baff, 0 0 1px #18baff, 0 0 1px #18baff;
+}
+
+footer a{
+  color: #FFFFFF;
+  text-shadow: 0 0 1px #FFF, 0 0 1px #FFF, 0 0 1px #FFF, 0 0 1px #18baff, 0 0 1px #18baff, 0 0 1px #18baff, 0 0 1px #18baff;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+footer, footer a:visited{
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+.red{
+  color: rgb(255, 0, 0);
+}
