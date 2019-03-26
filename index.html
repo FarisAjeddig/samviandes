@@ -38,7 +38,9 @@
     <br>
     <h1 style="margin-left:4%; font-size:4vw; margin-top: 6%" class="titleImage">La qualité
       <br> <strong style='font-size:5vw;'>au meilleur prix</strong></h1><br>
-      <button type="button" name="button" class="btn btn-danger" style="margin-left: 7%; font-size: 1.5vw;"><a href="#who" class="buttonLien">Découvrir</a></button>
+      <a href="#who" class="buttonLien">
+        <button type="button" name="button" class="btn btn-danger" style="margin-left: 7%; font-size: 1.5vw;">Découvrir</button>
+      </a>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   </div>
   <div class="container-fluid" id="who">
@@ -124,10 +126,31 @@
   </footer>
 
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+  <script type="text/javascript">
+      $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 500, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+    });
+  </script>
 
   <script src="script.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
