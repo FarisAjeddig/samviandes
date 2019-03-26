@@ -5,7 +5,7 @@ body{
 }
 
 .header{
-  background-color: rgba(204, 40, 16, 0.92);
+  background-color: #E15554;
   padding-top: 1%;
   padding-bottom: 2%;
   box-shadow: 2px 3px 5px grey;
@@ -118,5 +118,21 @@ footer, footer a:visited{
 }
 
 .red{
-  color: rgb(255, 0, 0);
+  color: #E15554;
+}
+
+.blue{
+  color: #4D9DE0;
+}
+
+.yellow{
+  color: #E1BC29;
+}
+
+.green{
+  color: #3BB273;
+}
+
+.purple{
+  color: #7768AE;
 }
