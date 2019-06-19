@@ -11,6 +11,10 @@ body{
   box-shadow: 2px 3px 5px grey;
 }
 
+.red2{
+  color: rgb(158, 0, 0)
+}
+
 header a{
   font-size: 1.3vw;
   color: #FFFFFF;
